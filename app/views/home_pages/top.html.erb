@@ -1,0 +1,56 @@
+
+  <%= render 'layouts/header' %>
+  <div class="top-main">
+    <img src="/assets/profile.jpg" alt="profile-img">
+  </div>
+  <div class="container">
+    <div class="profile">
+      <div id="Profile" class="profile-top">
+        <p>Profile</p>
+      </div>
+      <p>名前　　：宮崎慶<br>
+      生年月日：2000年3月6日<br>
+     血液型　：A型</p>
+      <p>はじめまして！！2020年7月よりプログラミングの独学をはじめました。趣味は散歩です。座右の銘は為せば成るです。</p>
+
+      <p>現在できること</p>
+      <p>言語　Ruby
+      フレームワーク　Ruby on Rails
+      クラウド AWS</p>
+      <div id="Portfolio" class="profile-top">
+        <p>Portfolio</p>
+      </div>
+      <div class="row">
+        <div class="col-lg-8">
+          <a class="portfolio-app"target="_blank"href="https://viewhome.herokuapp.com/"style="text-decoration:  none;"><img src="/assets/viewhome.jpg" alt="viewhome-app-img"></a>
+        </div>
+        <div class="col-lg-4">
+          <br>
+          <p>viewhome</p>
+          <p>iphoneの中身を共有できるSNSです。</p>
+          <p>
+            私はよくiphoneの壁紙や配置を変えます。また他人のiphoneの中身はどんな配置なんだろうと気になった事があります。そこで、iphoneの中身が共有できるSNSがあれば面白いのではないかと考えviewhomeを作成しました。
+          </p>
+        </div>  
+      </div>
+      <div id="Contact" class="profile-top">
+        <p>Contact</p>
+      </div>
+      <div class="field">
+        <%= form_with model: @contact do |f| %>
+          <%= f.label :お名前%>
+          <%= f.text_field :name,class: 'form-control'  %>
+          <%= f.label :メールアドレス%>
+          <%= f.text_field :email,class: 'form-control'  %>
+          <%= f.label :お問い合わせ内容%>
+          <div class="contact">
+            <%= f.text_area :message,class: 'form-control', :size=>"5x10"   %>
+          </div>
+          <%= f.submit '送信', class: 'btn btn-dark'  %>
+          
+        <% end %>
+      </div>
+
+    </div>
+  </div>
+</div>
