@@ -74,6 +74,7 @@ Rails.application.configure do
     port:                  587,
     user_name:            ENV['email'],
     password:             ENV['pass'],
+    openssl_verify_mode: 'none',
     enable_starttls_auto:  true
     }
 
