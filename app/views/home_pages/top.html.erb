@@ -44,7 +44,7 @@
           <%= f.text_field :email,class: 'form-control'  %>
           <%= f.label :お問い合わせ内容%>
           <div class="contact">
-            <%= f.text_area :message,class: 'form-control', :size=>"5x10"   %>
+            <%= f.text_area :message,class: 'form-control',placeholder: "お問い合わせ内容を1000字以内で入力して下さい", :size=>"5x10"   %>
           </div>
           <%= f.submit '送信', class: 'btn btn-dark'  %>
           
