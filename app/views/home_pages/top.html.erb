@@ -1,7 +1,15 @@
-
+<%= javascript_pack_tag 'index' %>
 <%= render 'layouts/header' %>
-<div class="top-main">
-  <img src="/assets/profile.jpg" alt="profile-img">
+<div class="slide">
+  <div class="top-main">
+    <img src="/assets/profile.jpg" alt="profile-img" />
+    <div class="profile2">
+      <img src="/assets/profile2.jpg" alt="profile-img"/>
+    </div>
+  </div>
+</div>
+<div class="slide-var">
+  <p><input type="range" id="slide_speed" value="4000" min="100" max="10000"></p>
 </div>
 <div class="container">
   <div class="profile">
