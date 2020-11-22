@@ -1,24 +1,5 @@
 # README
 
-## 自己紹介サイト
+## PortfolioSite
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# portfolio_site
+本番環境URL：https://sheltered-shore-67267.herokuapp.com/
