@@ -1,25 +1,27 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## PortfolioSite
 
-Things you may want to cover:
+## 本番環境
+URL：https://sheltered-shore-67267.herokuapp.com/
 
-* Ruby version
+## 制作の背景
+自分という人間を知ってもらう為に制作しました。
 
-* System dependencies
+## 使用技術
+バックエンド
+Ruby
+Ruby on Rails
+Postgresql
 
-* Configuration
+フロントエンド
+html
+scss
+javascript
 
-* Database creation
+インフラ
+heroku
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-# portfolio_site
+## 機能一覧
+お問い合わせ機能
+action_mailerでの実装
