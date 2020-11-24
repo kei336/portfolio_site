@@ -1,6 +1,6 @@
-# README
+# PortfolioSite
 
-## PortfolioSite
+### 自己紹介サイト
 
 ## 本番環境
 URL：https://sheltered-shore-67267.herokuapp.com/
@@ -10,18 +10,26 @@ URL：https://sheltered-shore-67267.herokuapp.com/
 
 ## 使用技術
 バックエンド
-Ruby
-Ruby on Rails
-Postgresql
+
+・Ruby 2.7.1
+
+・Ruby on Rails 6.0.3.4
+
+・Mysql 5.7.32
 
 フロントエンド
-html
-scss
-javascript
+
+・html
+
+・sass
+
+・javascript
+
+・Bootstrap
 
 インフラ
-heroku
+
+・heroku
 
 ## 機能一覧
 お問い合わせ機能
-action_mailerでの実装
