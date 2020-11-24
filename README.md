@@ -3,7 +3,7 @@
 ### 自己紹介サイト
 
 ## 本番環境
-URL：https://sheltered-shore-67267.herokuapp.com/
+URL：https://sheltered-shore-67267.herokuapp.com
 
 ## 制作の背景
 自分という人間を知ってもらう為に制作しました。
@@ -21,7 +21,7 @@ URL：https://sheltered-shore-67267.herokuapp.com/
 
 ・html
 
-・sass
+・scss
 
 ・javascript
 
