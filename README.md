@@ -15,7 +15,7 @@ URL：https://sheltered-shore-67267.herokuapp.com
 
 ・Ruby on Rails 6.0.3.4
 
-・Mysql 5.7.32
+・postgresql
 
 フロントエンド
 
